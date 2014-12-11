@@ -12,6 +12,7 @@ body {
 h1 {
 	font-family: 'Francois One', sans-serif;
 	font-size: 100px;
+	margin-bottom: 23px;
 }
 
 h2 {
@@ -21,7 +22,7 @@ h2 {
 }
 
 h2#about {
-	margin-top: -20px;
+	margin-top: -5px;
 }
 
 h3 {
@@ -70,7 +71,7 @@ section {
 }
 
 div {
-	margin-top: -60px;	x 
+	margin-top: -60px;
 }
 
 .year {
@@ -85,7 +86,7 @@ div {
 /* Lines */
 
 hr {
-	margin-top: -50px;
+	margin-top: -7px;
 	width: 950px;
 }
 
