@@ -1,0 +1,122 @@
+/* Your Website Styles */
+
+/* Headline */
+
+h1 {
+  font-family: 'Francois One', sans-serif;
+  font-size: 140px;
+  margin: 10px;
+  text-align: center;
+}
+
+hr {
+  margin-top: -20px;
+  margin-bottom: 20px;
+  width: 950px;
+}
+
+hr#line2 {
+  margin-top: 20px;
+  width: 950px;
+}
+
+body {
+  background: url(../img/cream_dust.png);
+}
+
+footer {
+  font-family: 'Roboto Slab', serif;
+  margin-top: 130px;
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  color: #ccc;
+}
+
+
+/* BW */
+
+/*B&W*/
+#bw {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+#bw:hover {
+  -webkit-filter: grayscale(100%);
+}
+
+/*MORPH*/
+.morph {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.morph:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+
+
+/* Gallery Stying */
+.gallery .control-button {
+  color: white;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.gallery .control-button:hover {
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/*
+	Theme controls how everything looks in Gallery CSS.
+*/
+.gallery {
+  position: relative;
+}
+.gallery .item {
+  height: 400px;
+  overflow: hidden;
+  text-align: center;
+  background: url(../img/cream_dust.png);
+}
+.gallery .controls {
+  position: absolute;
+  bottom: -115px;
+  width: 100%;
+  text-align: center;
+}
+
+.gallery .controls img {
+  border: 3px solid #000;
+  height: 75px;
+  width: 75px;
+
+}
+
+.gallery .control-button {
+  display: inline-block;
+  margin: 0 .02em;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+  transition: color .1s;
+}
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
