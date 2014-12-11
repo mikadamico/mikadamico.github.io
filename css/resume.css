@@ -129,7 +129,6 @@ NAVIGATION
 
 a {
 	font-family: 'Roboto Condensed', sans-serif;
-	text-decoration: none;
 	font-size: 1.2em;
 	color: black;
 }
@@ -150,9 +149,17 @@ nav li {
 	display: inline-block;
 }
 
-nav a {
-	font-weight: 800;
-	padding: 15px 10px;
+
+nav a:link,
+nav a:visited  {
+  color: #333;
+  text-decoration: none;
+  padding: 10px 10px 10px 32px;
+}
+
+nav a:hover,
+nav a:active {
+	color: #8CBBD9;
 }
 
 
