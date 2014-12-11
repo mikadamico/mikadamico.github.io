@@ -26,8 +26,8 @@ body {
 
 footer {
   font-family: 'Roboto Slab', serif;
-  margin-top: 165px;
-  padding-bottom: 30px;
+  margin-top: 143px;
+  padding-bottom: 19px;
   font-size: 0.75em;
   text-align: center;
   clear: both;
@@ -70,6 +70,7 @@ nav a:visited  {
 
 nav a:hover,
 nav a:active {
+  transition: .40s;
   color: #8CBBD9;
 }
 

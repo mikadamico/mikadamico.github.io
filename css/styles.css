@@ -62,7 +62,8 @@ footer {
 }
 
 p#footer {
-	margin-top: 8px;
+	margin-top: 20px;
+	padding-bottom: 4px;
 	width: 1000px;
 	font-size: 13px;
 	color: #ccc;
@@ -111,5 +112,6 @@ nav a:visited  {
 
 nav a:hover,
 nav a:active {
+	transition: .40s;
 	color: #8CBBD9;
 }
