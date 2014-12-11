@@ -1,5 +1,12 @@
 /* Your Website Styles */
  
+/* Body */
+
+body {
+  background: url(../img/cream_dust.png);
+}
+
+
 /* Headings */
 
 h1 {
@@ -61,11 +68,6 @@ p#work {
 section {
 	margin-bottom: 42px;
 }
-
-body {
-	background: #ffffff;
-}
-
 
 div {
 	margin-top: -60px;	x 

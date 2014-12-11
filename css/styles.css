@@ -1,6 +1,19 @@
 /* Your Website Styles */
 
 
+h1 {
+  font-family: 'Francois One', sans-serif;
+  font-size: 140px;
+  margin: 10px;
+  text-align: center;
+}
+
+body {
+  background: url(../img/cream_dust.png);
+}
+
+
+
 /* Show Grid */
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
