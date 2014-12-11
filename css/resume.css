@@ -116,11 +116,44 @@ hr {
 
 /* Links */
 
-a {
+a#contantlink {
 	text-decoration: none;
 	color: #7D7D84
 ;
 }
+
+/**********************
+NAVIGATION
+**********************/
+
+a {
+	font-family: 'Roboto Condensed', sans-serif;
+	text-decoration: none;
+	font-size: 1.2em;
+	color: black;
+}
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0 10px;
+	padding: 0; 
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+}
+
 
 /* Footer */
 

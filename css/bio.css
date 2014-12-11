@@ -17,6 +17,7 @@ h2 {
 }
 
 p {
+	color: #7D7D84;
 	font-family: 'Roboto Slab', serif;
 	font-weight: 300;
 	font-size: 15px;
@@ -69,3 +70,38 @@ hr {
 	margin-top: -30px;
 	width: 900px;
 }
+
+
+
+/**********************
+NAVIGATION
+**********************/
+
+a {
+	font-family: 'Roboto Condensed', sans-serif;
+	text-decoration: none;
+	font-size: 1.2em;
+	color: black;
+}
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0 10px;
+	padding: 0; 
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+}
+
