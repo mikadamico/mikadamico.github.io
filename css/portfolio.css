@@ -75,11 +75,7 @@ nav a:active {
 }
 
 
-
-
-/* BW */
-
-/*B&W*/
+/*B&W -- http://designshack.net/articles/css/joshuajohnson-2/*/
 #bw {
   -webkit-transition: all 1s ease;
      -moz-transition: all 1s ease;
@@ -92,7 +88,7 @@ nav a:active {
   -webkit-filter: grayscale(100%);
 }
 
-/*MORPH*/
+/*MORPH -- http://designshack.net/articles/css/joshuajohnson-2/*/
 .morph {
   -webkit-transition: all 0.5s ease;
      -moz-transition: all 0.5s ease;
